@@ -1,7 +1,21 @@
 .cardGrid{
   display:flex;
-  justify-content: center;
+  flex-direction:column;
+  justify-content: space-around;
 }
+.outcome{
+  align-self:center;
+  text-align:center;
+}
+
+.winner{
+  color: green;
+}
+
+.loser{
+  color: red;
+}
+
 .cardSet{
   display:inline-grid;
   grid-template-columns: 25% 25% 25% 25%;
