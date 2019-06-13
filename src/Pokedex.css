@@ -1,0 +1,9 @@
+.cardGrid{
+  display:flex;
+  justify-content: center;
+}
+.cardSet{
+  display:inline-grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items:center;
+}

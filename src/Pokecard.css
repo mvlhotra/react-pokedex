@@ -1,0 +1,30 @@
+.card{
+  transition: all .2s ease-in-out;
+  background-color: #d3d3d3;
+  width: 200px;
+  height: 215px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: 10% 20%;
+}
+.name{
+  color: #0000ff;
+}
+
+.stats p{
+  margin: 0;
+  text-align: center;
+}
+
+.card img{
+  width:30%;
+  height:30%;
+}
+
+.card:hover{
+  transform: scale(1.25);
+  z-index:999;
+}
